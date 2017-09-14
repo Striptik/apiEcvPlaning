@@ -9,4 +9,5 @@ module.exports = function (app, db) {
     app.get('/groups', (request, response) => {
 
     })
+
 }

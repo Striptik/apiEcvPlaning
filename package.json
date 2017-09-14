@@ -4,7 +4,7 @@
   "description": "Api for ecv project Hyper planning",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,12 +19,11 @@
   "dependencies": {
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
-    "mongodb": "^2.2.31"
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.11"
   },
   "devDependencies": {
     "nodemon": "^1.12.0"
-  },
-  "scripts": {
-    "dev": "nodemon server.js"
   }
 }
