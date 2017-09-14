@@ -3,6 +3,10 @@ module.exports = function (app, db) {
         let hateoas = {
             "get_groups" : "/groups",
         }
-        res.send('Hello')
+        res.json(hateoas).status(200)
+    })
+
+    app.get('/groups', (request, response) => {
+
     })
 }
