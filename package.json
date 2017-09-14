@@ -1,0 +1,30 @@
+{
+  "name": "apiecvplaning",
+  "version": "0.0.1",
+  "description": "Api for ecv project Hyper planning",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Striptik/apiEcvPlaning.git"
+  },
+  "author": "Ludo, David & Kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Striptik/apiEcvPlaning/issues"
+  },
+  "homepage": "https://github.com/Striptik/apiEcvPlaning#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
